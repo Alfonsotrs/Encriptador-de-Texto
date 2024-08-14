@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+        <section class="container">
+             <!-- LOGO ALURA -->
+            <div class="logobox">
+                <img src="img/logo.png" class="imgpixel">
+            </div>
+             <!-- TEXTO -->
+            <div class="textbox">
+
+                <textarea placeholder="Ingrese el texto aqui..." class="text" id="textousuario" id="mensajeError" ></textarea>
+                
+                <img src="img/letras.png" class="letras">
+
+                <div id="buttoncontainer">
+                    <button class="buttons1" id="botonEncriptar">Encriptar</button>
+                    <button class="buttons2" id="botonDesencriptar">Desencriptar</button>
+                </div>
+
+            </div>
+             <!-- CONTENIDO RECTANGULO -->
+            <div class="rectangle">
+
+                <p id="textoEncriptado" class="textoEncriptado"></p>
+
+                <p id="textoDesencriptado" class="textoDesencriptado"></p>
+
+                <img src="img/persona.png" class="imgrectangle" id="ContenidoRectangulo">
+
+                <p class="textin1" id="textencontrado1">Ningun mensaje fue encontrado</p>
+            
+                <p class="textin2" id="textencontrado2">Ingresa el texto que desees encriptar o desencriptar</p>
+
+                <button class="buttoncopiar" id="buttoncopiar">Copiar</button>
+
+            </div>      
+    
+        </section>
+
+           
+
+        <script src="app.js"></script>
+</body>
+</html>
+
+
+
